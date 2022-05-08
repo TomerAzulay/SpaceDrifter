@@ -1153,6 +1153,39 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 14.739, y: 0, z: 0}
+--- !u!1 &467851769 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b78af25ca22a790479227b15eed0a8f7, type: 3}
+  m_PrefabInstance: {fileID: 1022685633}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &467851772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 467851769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dfeb75ad9287aa4e854cc956561e4d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1649368799}
+  speed: 40
+  playerLoaction: {fileID: 1649368800}
+--- !u!65 &467851773
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 467851769}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.2185101, y: 0.10168446, z: 0.513196}
+  m_Center: {x: -0.00030497197, y: 0.00048672178, z: 0.021775132}
 --- !u!1 &470187034
 GameObject:
   m_ObjectHideFlags: 0
@@ -1977,7 +2010,7 @@ BoxCollider:
   m_GameObject: {fileID: 799264925}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -2329,15 +2362,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b78af25ca22a790479227b15eed0a8f7, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2
+      value: 7.9907804
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b78af25ca22a790479227b15eed0a8f7, type: 3}
       propertyPath: m_LocalScale.y
-      value: 2
+      value: 7.9907804
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b78af25ca22a790479227b15eed0a8f7, type: 3}
       propertyPath: m_LocalScale.z
-      value: 2
+      value: 7.9907804
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b78af25ca22a790479227b15eed0a8f7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8416,7 +8449,7 @@ GameObject:
   - component: {fileID: 1649368801}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
