@@ -2808,6 +2808,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8191795839f03e49888147de0ede7a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cannonTarget: {fileID: 1649368800}
+  cannonTrackSpeed: 16.33
 --- !u!1001 &1393610963
 PrefabInstance:
   m_ObjectHideFlags: 0
